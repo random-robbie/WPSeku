@@ -127,7 +127,7 @@ class WPSeku(object):
 				self.lfi = True
 			if o in ('-q','--query'):
 				self.query = a 
-			if o in ('-b','brute'):
+			if o in ('-b','--brute'):
 				self.brute = True
 			if o in ('-u','--user'):
 				self.user = a 
